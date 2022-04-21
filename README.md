@@ -9,7 +9,7 @@
 ## Description
 Presenting you is “Foodpedia iOS App”.
 ### An app to Solve The Trivial Situation of Deciding What To Cook and Eat At Home.
-It is an ingredient based recipe searching app. Our app offers the most simple and easy to use UI, users just have to provide some ingredients and our app will provide them recipe based on those listed ingredients. This give them a lot of variety to choose from. Currently our app focuses on iPhones. We have utilized SwiftUI, which is to share Data easily all across the app environment and let SwiftUI makes the necessary changes, guided by our code. We are making a network call which is getting back a JSON from API. We then pass the selected ingredients in the URL parameters. It returns the recipe back in a JSON format. The recipe result page shows data from an array of recipes obtained through a fetch call, which is then displayed using a controller view. 
+It is an ingredient based recipe searching app. Our app offers the most simple and easy to use UI, users just have to select some ingredients and our app will provide them recipes based on the selected ingredients. Currently our app focuses on iPhones only. We have utilized Swift, to share data easily across the app environment and let SwiftUI makes the necessary changes. We pass the selected ingredients in the URL parameters to make a network call for a REST API (Spoonacular API). The recipe result page shows data from an array of recipes obtained (JSON format) through a fetch call, which is then displayed using a model controller view architectured screens. 
 
 
 ### API used
